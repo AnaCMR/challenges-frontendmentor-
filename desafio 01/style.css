@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-color: hsl(217, 54%, 11%);
     font-family: 'outfit',Arial, Helvetica, sans-serif;
+    max-width: 100vw;
 }
 
 .card {
