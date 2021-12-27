@@ -11,13 +11,26 @@ body {
     border-radius: 20px;
     width: 300px;
     height: 550px;
-    padding: 1rem;
+    padding: 1.5rem;
     color: hsl(215, 51%, 70%);
     font-weight: 300;
 }
 
-.foto-produto {
+#foto_produto {
     width: 300px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+#hover_imagem {
+    background-color: hsla(178, 100%, 50%, 0.3);
+    cursor: pointer;
+    z-index: 3;
+    display: flex;
+    padding: 42%;
+    border-radius: 20px;
+    position: relative;
+    visibility: hidden;
 }
 
 .descricao {
@@ -42,28 +55,40 @@ body {
 .preco {
     color: hsl(178, 100%, 50%);
     font-weight: 600;
+    
 }
 
 .preco::before {
     content: url('images/icon-ethereum.svg');
     margin-right: 0.5em;
+    height: 0.5em;
 }
 .tempo-restante::before {
     content: url('images/icon-clock.svg');
     margin-right: 0.5em;
+    height: 0.5em;
 }
 
 hr {
-    color: hsl(215, 51%, 70%);
+    border: 1px solid hsl(215, 51%, 70%, 0.3);
+    width: 90%;
 }
 
 .criador {
     display: flex;
-    justify-content: space-evenly;
+    width: 100%;
 }
 
 .avatar {
     width: 10%;
     border: 1px solid hsl(215, 51%, 70%); ;
     border-radius: 50%;
+    margin-right: 5%;
+    height: 10%;
+    margin-top: 2%;
+}
+
+.nome-criador {
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
 }
