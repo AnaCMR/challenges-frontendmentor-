@@ -180,4 +180,5 @@ button:hover, li:hover{
     text-transform: uppercase;
     color: hsl(191, 9%, 36%);
     font-weight: 700;
+    cursor: pointer;
 }
