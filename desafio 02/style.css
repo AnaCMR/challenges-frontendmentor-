@@ -46,7 +46,7 @@ body {
 }
 
 .botoes li:hover {
-   color: hsl(236, 100%, 87%);
+   color: hsl(236, 100%, 87%) !important;
    cursor: pointer; 
 }
 
@@ -63,6 +63,7 @@ body {
     width: 130%;
     height: 80%;
     margin-bottom: 5%;
+    max-width: 130%;
 }
 
 .card {
@@ -73,6 +74,8 @@ body {
     margin-top: 20%;
     position: relative;
     z-index: 1;
+    max-height: 60%;
+    max-width: 100%;
 }
 
 .icone {
@@ -86,6 +89,7 @@ body {
 }
 
 .card h1 {
+    max-width: 2vw;
     font-weight: 300;
     font-size: 3rem;
     margin-top: 0;
