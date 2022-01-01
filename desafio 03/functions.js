@@ -18,8 +18,6 @@ function tipValue(index) {
     tipArrey.push(customTip);
     resultTip = (tipArrey[index] / 100);
     teste = resultTip * billValue
-
-    console.log(tipArrey[index])
   });
 }
 
@@ -40,7 +38,7 @@ tipSelected.forEach((buttonActive, index) => {
 function alterTotals() {
   let billValue = Number(billInput.value);
   let numberPeople = Number(personInput.value);
-  resultTipPerson = teste / numberPeople;
+  resultTipPerson = teste / personInput.value;
   totalResult = resultTipPerson + (billValue / numberPeople);
 
   if (billValue != 0 && numberPeople != 0) {
