@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../assets/home/background-home-desktop.jpg) no-repeat center
+    center fixed;
+  color: #fff;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90vw;
+  margin: 3% auto;
+}
+
+hr {
+  width: 35.5%;
+  height: 0;
+  background-color: #49494941;
+  border: 1.5px solid #49494909;
+margin: 3% 52% 0 0;
+  z-index: 1;
+}
+
+.c-menu__icon {
+max-width: 100%;
+width: 5%;
+height: 5%;
+margin-left:  -5%;
+}
+
+.c-menu__background {
+  background-color: #29292941;
+  width: 50%;
+  height: 10%;
+  padding: 1% 15% 0 0;
+  backdrop-filter: blur(20px) brightness(110%);
+  align-content: center;
+  margin-right: -50%;
+  position: fixed;
+}
+
+.c-menu__navbar {
+  padding: 2%;
+  width: 100%;
+  align-items: center;
+  font-family: "Barlow Condensed", sans-serif;
+  margin: -2% 0 0 -5%;
+}
+
+.c-menu__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  z-index: 1;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 2.7px;
+  font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.c-menu__list li:hover {
+    cursor: pointer;
+    border-bottom:  3px solid rgba(255, 255, 255, 0.473);
+    padding-bottom: 4%;
+}
+
+.c-menu__list li:active {
+    cursor: pointer;
+    border-bottom:  3px solid rgba(255, 255, 255);
+    padding-bottom: 4%;
+}
+
+.c-menu__list li:first-child {
+    border-bottom:  3px solid rgba(255, 255, 255);
+    padding-bottom: 4%;
+}
+
+a:visited {
+    border-bottom:  3px solid rgba(255, 255, 255);
+    padding-bottom: 4%;
+
+}
+.c-section__content {
+    width: 45%;
+    margin-top: 5%;
+    color: #D0D6F9;
+}
+.c-section__tittle {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.75rem;
+    letter-spacing: 4.75px;
+    font-weight: 100;
+    height: 10%;
+    text-transform: uppercase;
+}
+
+.c-section__tittleEmphasis{
+    font-family: 'Bellefair', serif;
+    font-weight: 100;
+    font-size: 8.5rem;
+    text-transform: uppercase;
+    height: 10%;
+    width: 70%;
+    margin-top: -3%;
+}
+
+.c-section__text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 100;
+    width: 70%;
+    font-size: 1.12rem;
+    text-align: justify;
+}
+
+button {
+    border-radius: 50%;
+    width: 20%;
+    height: 100%;
+    padding: 8% 0 8% 0 ;
+    text-align: center;
+    margin-top: 15%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Bellefair', serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+
+button:hover {
+outline: 70px solid #242323de;
+transform: 3s;
+}
